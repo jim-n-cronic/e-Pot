@@ -7,7 +7,7 @@ const app = express();
 
 
 app.get("/", (request, response) => {
-    app.sendFile(path.join(__dirname,"public", "home.html"));
+    response.sendFile(path.join(__dirname,"app","public", "home.html"));
 })
 
 
