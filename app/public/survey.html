@@ -3,12 +3,175 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>Take a chance at fate!</title>
     <!--bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <!--myStylesheet-->
+    <link rel="stylesheet" href="../public/assets/css/style-survey.css">
     <!--jqueryCDN-->
+    <script
+  src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"
+  integrity="sha256-0YPKAwZP7Mp3ALMRVB2i8GXeEndvCq3eSl/WsAl1Ryk="
+  crossorigin="anonymous"></script>
 </head>
 <body>
+    <!--\START/-->
+    <thead class="form" id="tableHdR">
+        <h1 class="acheOne">New form..who disss?</h1>
+    </thead>
+    <tbody class="form body" id="daForm">
+        <!-- THE FORM STARTS HERE -->
+        <div class="container-fluid" id="userIN-start">
+            <h3 class="label">fullName <input type="text" id="nameIN"></h3> 
+            <h3 class="label">snapChat: <input type="text" id="userAviIN"></h3>
+
+            <aside class="aside container" id="rightside">
+                
+            </aside>
+            
+            <hr>
+        </div>
+        <section class="container" id="form-questions">
+            <!-- BEGIN SURVEY -->
+            <form class="form-group" id="teapotForm">
+                <!-- QUESTION ONE -->
+                    <div class="form-group" id="question-holder">
+                      <label for="answer" id="ques-one">Pick a random number between 1 and 5</label>
+                      <select class="form-control" id="answerOne">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select>
+                </div>
+                <!-- QUESTION TWO -->
+                <div class="form-group" id="question-holder">
+                        <label for="answer" id="ques-two">How do you feel about comedic films/shows over action/drama?</label>
+                        <select class="form-control" id="answerTwo">
+                          <option>1</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                      </select>
+                      
+                  </div>    
+                    <!-- QEUSTION THREE -->
+                    <div class="form-group" id="question-holder">
+                            <label for="answer" id="ques-three">Are you more of a scary(5) or more into Comedy(1) if you had to choose?</label>
+                            <select class="form-control" id="answerThree">
+                              <option>1</option>
+                              <option>2</option>
+                              <option>3</option>
+                              <option>4</option>
+                              <option>5</option>
+                          </select>
+                          
+                      </div>
+                      <!-- QUESTION FOUR -->
+                      <div class="form-group" id="question-holder">
+                            <label for="answer" id="ques-four">How important is it for the opposite partner to know how to cook (and vise versa)?</label>
+                            <select class="form-control" id="answerFour">
+                              <option>1</option>
+                              <option>2</option>
+                              <option>3</option>
+                              <option>4</option>
+                              <option>5</option>
+                          </select>
+                          
+                      </div>
+                      <!-- QUESTION FIVE -->
+                      <div class="form-group" id="question-holder">
+                            <label for="answer" id="ques-five">Rate 1 being more of a 'homebody' to 5 being more 'outgoing.'</label>
+                            <select class="form-control" id="answerFive">
+                              <option>1</option>
+                              <option>2</option>
+                              <option>3</option>
+                              <option>4</option>
+                              <option>5</option>
+                          </select>
+                          
+                      </div>
+                      <!-- QUESTION SIX -->
+                      <div class="form-group" id="question-holder">
+                            <label for="answer" id="ques-six">Rate from 1 being a "hot mess" to a 5 being "have your sh*t together."</label>
+                            <select class="form-control" id="answerSix">
+                              <option>1</option>
+                              <option>2</option>
+                              <option>3</option>
+                              <option>4</option>
+                              <option>5</option>
+                          </select>
+                          
+                      </div>
+                      <!-- QUESTION SEVEN -->
+                      <div class="form-group" id="question-holder">
+                            <label for="answer" id="ques-seven">How likely are you to rescue an alien from Area 51?</label>
+                            <select class="form-control" id="answerSeven">
+                              <option>1</option>
+                              <option>2</option>
+                              <option>3</option>
+                              <option>4</option>
+                              <option>5</option>
+                          </select>
+                          
+                      </div>
+                      <!-- QUESTION EIGHT -->
+                      <div class="form-group" id="question-holder">
+                            <label for="answer" id="ques-eight">Rate from 1 to 5 being how the "Man should always pick up the bill."</label>
+                            <select class="form-control" id="answerEight">
+                              <option>1</option>
+                              <option>2</option>
+                              <option>3</option>
+                              <option>4</option>
+                              <option>5</option>
+                          </select>
+                          
+                      </div>
+                      <!-- QUESTION NINE -->
+                      <div class="form-group" id="question-holder">
+                            <label for="answer" id="ques-nine">Is it better to stay in and cook(1) or go out to a nice place to eat(5)?</label>
+                            <select class="form-control" id="answerNine">
+                              <option>1</option>
+                              <option>2</option>
+                              <option>3</option>
+                              <option>4</option>
+                              <option>5</option>
+                          </select>
+                          
+                      </div>
+                      <!-- QUESTION TEN -->
+                      <div class="form-group" id="question-holder">
+                            <label for="answer" id="ques-ten">How much better is this than Tinder?</label>
+                            <select class="form-control" id="answerTen">
+                              <option>1</option>
+                              <option>2</option>
+                              <option>3</option>
+                              <option>4</option>
+                              <option>5</option>
+                          </select>
+                          
+                      </div>
+                      <button type="submit" class="btn btn-primary btn-submit-form">Match Results!</button>
+                  </form>
+            <!-- END SURVEY -->
+        </section>
+        <!-- ___ FORM ENDS HERE ___ -->
+    </tbody>
+
+
+
+
+
+
+
+
+    <!--/ END \-->
+
+    <!--!\/!LINK-JAVASCRIPT!\/!-->
     
+   
 </body>
 </html>

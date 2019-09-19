@@ -1,0 +1,33 @@
+#teapot {
+    width: 16%;
+    left: 0px;
+    right: 0px;
+    
+    
+}
+
+/*
+* DRAG CODE HER TO HOLD IT OUT OF EXECUTE *
+*/
+
+.myLogo {
+    margin-top: 4.4%; 
+}
+#logo-here {
+    text-align: center;
+}
+.headText {
+    text-align: center;
+}
+.btn {
+    background-color: yellow;
+    color: rgb(0, 77, 243);
+    font-weight: bold;
+
+    margin-left: 42.5%;
+}
+.btn:hover {
+    background-color: red;
+    color: gold;
+    font-weight: bolder;
+}
