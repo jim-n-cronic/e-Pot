@@ -19,14 +19,14 @@
 .headText {
     text-align: center;
 }
-.btn {
+#btntest {
     background-color: yellow;
     color: rgb(0, 77, 243);
     font-weight: bold;
 
-    margin-left: 42.5%;
+    margin-left: 47.22%;
 }
-.btn:hover {
+#btntest:hover {
     background-color: red;
     color: gold;
     font-weight: bolder;

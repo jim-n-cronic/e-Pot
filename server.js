@@ -6,11 +6,16 @@ const path = require('path');
 const app = express();
 
 
-app.get("/", (request, response) => {
-    response.sendFile(path.join(__dirname,"app","public", "home.html"));
-})
 
+app.use(express.static('app/public'));
+//========================
+// \\ GET htmlRoutes //
+require("./app/routing/htmlRoutes")(app);
+// \\ GET apiRoutes //
 
+//========================
+// PORT OUT
 const PORT = process.env.PORT || 6969;
 
 app.listen(PORT, () => console.log(`SEVER BEGAN LISTENING ON PORT: ${PORT}`));
+

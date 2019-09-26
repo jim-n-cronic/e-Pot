@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <!--myStylesheet-->
-    <link rel="stylesheet" href="/app/public/assets/css/style-home.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style-home.css">
     <!--jQuery-CDN-->
     <script
   src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"
@@ -20,7 +20,7 @@
          <!-- *ALSO :>:  to be the holding DIV to hold the 'welcomer' -->
      <header id="logo-here" class="container-fluid">
          <!-- here -->
-         <img id="teapot" src="../public/assets/images/teapot.png" class="myLogo">
+         <img id="teapot" src="/assets/images/teapot.png" class="myLogo">
          <!---------->
          
         </header>
@@ -28,9 +28,10 @@
         <p class="headText caption">"It's getting hot in the teapot!"</p>
 
         <!--button to go to survey-->
-        <button class="btn btn-primary">SSSurvey thisss way!</button>
-    
+        <input id="btntest" type="button" value="Check" 
+       onclick="window.location.href = 'http://localhost:6969/survey'" />
     <!--/ END \-->
     <!--!\/!LINK-JAVASCRIPT!\/!-->
+    
 </body>
 </html>
