@@ -1,16 +1,15 @@
+/*
 $(document).ready(() => {
 
     subButton = $(".btn-submit-form");
     subButton.on('click', () => {
-        $("form").submit(function() {
+        $("form").submit(function () {
+            $.post("/api/friends", function (data) {
+                console.log(data);
+                console.log(json(data));
+            });
 
-            console.log($(this))
-            // $.post($(this).attr("action"), $(this).serialize(), (jsonData) => {
-            //     console.log(jsonData);
-            // }, "json");
         });
     })
-
-
-
 })
+*/

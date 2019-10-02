@@ -20,18 +20,27 @@
 ``` * 
  */
 // >>> path: 'app/data/friends.js' 
-//==========================
 // \/ BEGIN JAVASCRIPT \/
+//==========================
 
 // store objects with JSON-notation results into 'appData'
 
-
-const Friends = function(name,sc) {
-    this.name = name,
-    this.snap = sc,
-    this.score = []
-};
-
-
-
+const Friends = [
+  {
+    "name":"James",
+    "snapchat":"@swagmente",
+    "scores":[
+      3,
+      5,
+      3,
+      4,
+      2,
+      3,
+      3,
+      5,
+      3,
+      5
+    ]
+  }
+];
 module.exports = Friends;
