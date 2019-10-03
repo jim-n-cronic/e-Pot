@@ -9,9 +9,13 @@ module.exports = (app) => {
         res.json(Friends);
     });
      app.post("/api/friends", (req,res) => {
-         console.log(res)
-         res.json(req.body);
+         //console.log(res)
+         console.log(req.body);
+         //res.json(req.body);
+         data = res.json(req.body);
          // MATCHING LOGIC \here/
+         Friends.push(data);
+         console.log(Friends);
          // req.body === results(userData)
          // WE want the scores << an array from the survey
          // loop thru total scores calc(difference) << lowest outcome is the "best match"

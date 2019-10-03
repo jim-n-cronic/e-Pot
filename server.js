@@ -1,10 +1,10 @@
 // require express
 const express = require('express');
-
+const bdyPrs = require('body-parser');
 const app = express();
 
 
-
+app.use(bdyPrs());
 app.use(express.static('app/public'));
 //========================
 // \\ GET htmlRoutes //
