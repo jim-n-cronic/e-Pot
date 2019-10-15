@@ -6,6 +6,8 @@ const app = express();
 
 app.use(bdyPrs());
 app.use(express.static('app/public'));
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
 //========================
 // \\ GET htmlRoutes //
 require("./app/routing/htmlRoutes")(app);

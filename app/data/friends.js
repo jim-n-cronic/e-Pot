@@ -28,7 +28,7 @@
 const Friends = [
   {
     "name":"James",
-    "snapchat":"@swagmente",
+    "snapchat":"HARD CODED",
     "scores":[
       3,
       5,
@@ -38,6 +38,70 @@ const Friends = [
       3,
       3,
       5,
+      3,
+      5
+    ]
+  },
+  {
+    "name":"Joe Mama",
+    "picture":"UGLY AZZZZZZ MOFUCKAA!",
+    "scores":[
+      3,
+      5,
+      2,
+      4,
+      1,
+      3,
+      2,
+      5,
+      2,
+      4
+    ]
+  },
+  {
+    "name":"Buck Chuck",
+    "picture":"UGLY AZZZZZZ MOFUCKAA!",
+    "scores":[
+      3,
+      2,
+      4,
+      1,
+      4,
+      3,
+      2,
+      2,
+      2,
+      5
+    ]
+  },
+  {
+    "name":"M.C.Wiener",
+    "picture":"UGLY AZZZZZZ MOFUCKAA!",
+    "scores":[
+      1,
+      5,
+      2,
+      4,
+      1,
+      3,
+      5,
+      2,
+      5,
+      2
+    ]
+  },
+  {
+    "name":"Rickie Ricardo",
+    "picture":"UGLY AZZZZZZ MOFUCKAA!",
+    "scores":[
+      5,
+      2,
+      3,
+      1,
+      1,
+      3,
+      4,
+      2,
       3,
       5
     ]
